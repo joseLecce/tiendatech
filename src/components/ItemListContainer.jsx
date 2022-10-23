@@ -1,10 +1,12 @@
 import React from "react";
+import Button from '@mui/material/Button';
 
 export default function ItemListContainer ({greeting}){
 
     return (
         <>
-        <h2 style={{backgroundColor:"#ffa"}}>{greeting}</h2>
+        <Button variant="contained" size="small">{greeting}</Button>;
         </>
+    
     )
 }
